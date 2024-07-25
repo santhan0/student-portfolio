@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Website</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- Font awesome -->
+    <script src="https://kit.fontawesome.com/e6b8371d90.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- Header section -->
+    <div id="header">
+        <div class="container">
+            <nav>
+                <ul id="sidemenu">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#works">Works</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>Student</p>
+                <h1>
+                    Hi, I'm <span>Santhan</span> <br /> Web Designer
+                </h1>
+            </div>
+        </div>
+    </div>
+
+    <!-- About section -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="assets/images/profile.jpg" alt="pp" >
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Hello! I'm Santhan Reddy Chilla, a passionate Computer Science Engineering student with a
+                         keen interest in exploring the ever-evolving world of technology. Currently pursuing
+                          BTech third-year at SRM University,
+                           I am driven by a curiosity to understand how software and systems work, and more importantly,
+                            how they can be optimized to solve real-world problems efficiently.
+
+                        My academic journey has equipped me with a strong foundation in programming languages such as
+                        c,c++, data structures, algorithms, database management and web development.
+                          I thrive in environments where creativity and logical thinking are paramount, constantly seeking 
+                          to enhance my skills through hands-on projects and internships.</p>
+                    <div class="tab-titles">
+
+                        <p class="tab-links active-link" onclick="opentab('education')">Education</p>
+                        <p class="tab-links " onclick="opentab('skills')">Skills</p>
+                       
+                    </div>
+                    <div class="tab-contents " id="skills">
+                        <ul>
+                            <li><span>C/C++</span><br></li>
+                            <li><span>Web Development</span><br></li>
+                            <li><span>Python</span><br></li>
+                            <li><span>DBMS</span><br></li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents active-tab" id="education">
+                        <ul>
+                            <li><span>2022 - Current</span><br>B.Tech - SRM University</li>
+                            <li><span>2020 - 2022</span><br>12<sup>th</sup>- sri chaitanya junior college</li>
+                            <li><span>2019 - 2020</span><br>10<sup>th</sup>- sri chaitanya</li>
+                        </ul>
+                    </div>
+                  
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Services section -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Development</h2>
+                </div>
+                <div>
+                    <i class="fa-solid fa-pen-nib"></i>
+                    <h2>UI/UX Design</h2>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store-ios"></i>
+                    <h2>App Development</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Works section -->
+    <div id="works">
+        <div class="container">
+            <h1 class="sub-title">My Works</h1>
+            <div class="works-list">
+                <div class="work">
+                    <img src="assets/images/work-1.png" alt="work-1">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>Created a dynamic social media app highlighting user-friendly design and robust functionality.
+                             Demonstrates expertise in front-end development, UI/UX design, and backend integration.</p>
+                        <a href="#"><i class="fa fa-external-link" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="assets/images/work-2.png" alt="work-2">
+                    <div class="layer">
+                        <h3>Music App</h3>
+                        <p>Designed and developed a sleek music app emphasizing intuitive user experience and seamless functionality.
+                             Demonstrates skills in front-end design, backend integration, and user engagement strategies.</p>
+                        <a href="#"><i class="fa fa-external-link" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="assets/images/work-3.png" alt="work-3">
+                    <div class="layer">
+                        <h3>Online Shopping App</h3>
+                        <p>Developed an efficient online shopping app focusing on user-friendly interface and seamless functionality.
+                             Showcases expertise in front-end design, backend integration, and e-commerce solutions. </p>
+                        <a href="#"><i class="fa fa-external-link" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+
+    <!-- Contact section -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>santhanreddy_chilla@srmap.edu.in</p>
+                    <p><i class="fa-solid fa-square-phone-flip"></i>+91-9999999999</p>
+                  
+                    <div class="social-icons">
+                        <a href="https://m.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/santhan-reddy-71a861258/"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="cv.pdf" class="btn btn2" download>Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form action="">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+    </script>
+</body>
+
+</html>
